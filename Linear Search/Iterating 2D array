@@ -1,0 +1,19 @@
+public interface Iterating2DArray {
+    public static void main(String[] args) {
+        int[][] marks = {
+                {1, 5, 3},
+                {14, 2, 7, 10, 15, 6},
+                {4, 8, 9}
+        };
+//        System.out.println(marks.length);
+//        System.out.println(marks[1].length);
+
+        for (int i = 0; i < marks.length; i++) {
+            for (int j = 0; j < marks[i].length; j++) {
+                System.out.print(marks[i][j] + " ");
+
+            }
+            System.out.println();
+        }
+    }
+}
